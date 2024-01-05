@@ -3,6 +3,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 /* common shared style */
 body{
@@ -38,4 +39,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: #181818;
+}
+/* header background colour */
+.fahim{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pictue{
+    width: 500px;
 }
