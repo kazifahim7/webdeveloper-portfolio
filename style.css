@@ -158,3 +158,26 @@ line-height: normal;
     text-align: center;
     margin-top: 50px;
 }
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+    gap: 120px;
+
+}
+.footer-column{
+    width: 50%;
+}
+.contact input , textarea{
+    display: block;
+    margin-bottom: 26px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0;
+    width: 100%;
+}
+.social-link a{
+  margin-right: 25px;
+}
