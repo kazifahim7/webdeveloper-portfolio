@@ -181,3 +181,74 @@ footer{
 .social-link a{
   margin-right: 25px;
 }
+
+/* responsive style */
+/* mobile screen  */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .fahim{
+        background-image: none;
+    }
+    .banner ,nav{
+        flex-direction: column;
+    }
+     .banner .profile-pictue{
+        width: 100%;
+    }
+    nav >ul{
+        flex-direction: column;
+    }
+    .banner{
+        padding: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    ul{
+        gap: 20px;
+    }
+
+
+
+    .skill-container{
+        flex-direction: column;
+    }
+    #fahim{
+        padding: 20px;
+    }
+    .resume-container , footer{
+        flex-direction: column;
+    }
+    footer{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input , textarea{
+        width: 80%;
+    }
+    .social-link a{
+        padding-left: 50px;
+        margin-right: 10px;
+    }
+
+    .about{
+        padding: 50px;
+    }
+    .about-info-container{
+        flex-direction: column;
+
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    footer{
+        padding: 30px;
+    }
+    
+} 
